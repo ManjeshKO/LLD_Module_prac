@@ -2,16 +2,19 @@ package Intro_to_oops;
 
 public class Student
 {
-    String name;
+    private String name;
     String email;
-    int age;
+    public int age;
 
-    void changeBatch()
+    public Student(String name){
+        this.name = name;
+    }
+    public void changeBatch()
     {
         System.out.println(this.name+" is changing the batch");
     }
 
-    void pauseCourse()
+    public void pauseCourse()
     {
         System.out.println(this.name+" is pausing their course");
     }
