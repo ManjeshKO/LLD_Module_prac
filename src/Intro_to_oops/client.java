@@ -11,6 +11,7 @@ public class client {
 
         Student chmStudent = new Student();
         chmStudent.name = "Chaitra";
-        chmStudent.changeBatch();
+
+
     }
 }
